@@ -39,7 +39,7 @@ DISPLAY "Mesin Cuci Menyala"
  */
 
  
- /* PERIKSA KUKU
+ /*4. PERIKSA KUKU
    FOR KUKU <= 40
    IF SISWA = KUKU PANJANG
         DO HUKUM
