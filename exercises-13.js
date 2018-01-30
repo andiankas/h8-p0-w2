@@ -1,8 +1,17 @@
 // Logic Challenge - X dan O
 
 function xo(str) {
-    var pecahX = str.split('x')
-    var pecahO = str.split('o')
+    var buangX = str.split('x').join('')
+    var buangO = str.split('o').join('')
+
+    var hitungO = buangO.length
+    var hitungX = buangX.length
+
+    if (hitungO==hitungX) {
+      return true
+    } else {
+      return false
+    }
     
     
   }
