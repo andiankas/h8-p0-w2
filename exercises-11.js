@@ -1,6 +1,12 @@
 // Logic Challenge - Balik Kata
 function balikKata(kata) {
-    return kata.split('').reverse().join('') //menggunakan reverse
+    // return kata.split('').reverse().join('') //ini cara menggunakan reverse
+    var output = '' 
+    for(i=kata.length-1;i>=1;i--){ //ini cara tanpa menggunakan reverse
+      output = output + kata[i]
+
+    }
+    return output
     
   }
   
