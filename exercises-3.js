@@ -1,5 +1,5 @@
 // Output untuk Input nama = '' dan peran = ''
-"Nama harus diisi!"
+// "Nama harus diisi!"
 
 var nama ='';
 var peran = '';
@@ -11,7 +11,7 @@ if (nama=='') {
 }
 
 //Output untuk Input nama = 'Mikael' dan peran = ''
-"Halo Mikael, Pilih peranmu untuk memulai game!"
+// "Halo Mikael, Pilih peranmu untuk memulai game!"
 
 var nama = 'Mikael';
 var peran = '';
@@ -23,8 +23,8 @@ if (peran=='') {
 }
 
 //Output untuk Input nama = 'Nina' dan peran 'Ksatria'
-"Selamat datang di Dunia Proxytia, Nina"
-"Halo Ksatria Nina, kamu dapat menyerang dengan senjatamu!"
+// "Selamat datang di Dunia Proxytia, Nina"
+// "Halo Ksatria Nina, kamu dapat menyerang dengan senjatamu!"
 
 var nama = 'Nina';
 var peran = 'Ksatria';
@@ -37,8 +37,8 @@ if (peran=='Ksatria') {
 }
 
 //Output untuk Input nama = 'Danu' dan peran 'Tabib'
-"Selamat datang di Dunia Proxytia, Danu"
-"Halo Tabib Danu, kamu akan membantu temanmu yang terluka."
+// "Selamat datang di Dunia Proxytia, Danu"
+// "Halo Tabib Danu, kamu akan membantu temanmu yang terluka."
 
 var nama = 'Danu';
 var peran = 'Tabib';
@@ -51,8 +51,8 @@ if (peran=='Tabib') {
 }
 
 //Output untuk Input nama = 'Zero' dan peran 'Penyihir'
-"Selamat datang di Dunia Proxytia, Zero"
-"Halo Penyihir Zero, ciptakan keajaiban yang membantu kemenanganmu!"
+// "Selamat datang di Dunia Proxytia, Zero"
+// "Halo Penyihir Zero, ciptakan keajaiban yang membantu kemenanganmu!"
 
 var nama = 'Zero';
 var peran = 'Penyihir';
