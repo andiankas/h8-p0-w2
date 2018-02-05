@@ -2,7 +2,7 @@
 function balikKata(kata) {
     // return kata.split('').reverse().join('') //ini cara menggunakan reverse
     var output = '' 
-    for(i=kata.length-1;i>=1;i--){ //ini cara tanpa menggunakan reverse
+    for(i=kata.length-1;i>=0;i--){ //ini cara tanpa menggunakan reverse
       output = output + kata[i]
 
     }
