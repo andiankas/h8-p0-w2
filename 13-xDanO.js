@@ -1,20 +1,21 @@
 // Logic Challenge - X dan O
 
 function xo(str) {
-    var buangX = str.split('x').join('')
-    var buangO = str.split('o').join('')
+  var buangX = str.split('x').join('')
+  var buangO = str.split('o').join('')
 
-    var hitungO = buangO.length
-    var hitungX = buangX.length
+  var hitungO = buangO.length
+  var hitungX = buangX.length
 
-    if (hitungO==hitungX) {
-      return true
-    } else {
-      return false
-    }
+  if (hitungO==hitungX) {
     
+    return true
 
+  } else {
+    
+    return false
   }
+}
   
   // TEST CASES
   console.log(xo('xoxoxo')); // true

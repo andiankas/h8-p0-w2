@@ -7,7 +7,7 @@ function konversiMenit(menit) {
     } else {
         return minutes+":"+seconds
     }
-  }
+}
   
   // TEST CASES
   console.log(konversiMenit(63)); // 1:03
