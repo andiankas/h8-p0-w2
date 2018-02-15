@@ -1,3 +1,33 @@
+// 1. Melakukan Looping Menggunakan While
+
+console.log('LOOPING PERTAMA')
+var i = 2;
+while (i <= 20) {
+  console.log(i + ' - I Love Coding');
+  i += 2;
+}
+
+
+console.log('LOOPING KEDUA')
+var i = 20;
+while (i >= 2) {
+  console.log(i + ' - I will become fullstack developer');
+  i -= 2;
+}
+
+// 2. Looping Menggunakan For
+
+console.log('LOOPING PERTAMA')
+for (i = 1; i <= 20; i++) {
+  console.log(i + ' - I love coding')
+}
+
+console.log('LOOPING KEDUA')
+for (i = 20; i >= 1; i--) {
+  console.log(i + ' - I will become fullstack developer')
+}
+
+
 // 3. Angka Ganjil dan Genap
 
 for (i = 1; i <= 100; i++) {
